@@ -10,7 +10,7 @@ FROM ubuntu:focal-20200423
 LABEL maintainer="sameer@damagehead.com"
 
 ENV BIND_USER=bind \
-    BIND_VERSION=9.16.1 \
+    BIND_VERSION=9.16.1-0 \
     WEBMIN_VERSION=1.941 \
     DATA_DIR=/data
 
